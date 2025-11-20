@@ -117,3 +117,12 @@ ol ul {
     color: #e6e6e6;
     overflow-x: auto;
 }
+
+/* ====== ANCHOR TAG ====== */
+a {
+  color: #7bdff2; /* your 🩵 color */
+}
+
+a:hover {
+  color: #38b6ff; /* slightly darker on hover */
+}
