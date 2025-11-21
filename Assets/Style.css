@@ -88,9 +88,9 @@ ol ul {
 
 .section {
     background: #141414;
-    padding: 18px 22px;
-    margin-bottom: 25px;
-    border-radius: 10px;
+    padding: 8px 22px;
+    margin-bottom: 5px;
+    border-radius: 15px;
     box-shadow: 0 2px 6px rgba(0, 0, 0, 0.4);
 }
 
@@ -135,4 +135,21 @@ a {
 
 a:hover {
   color: #38b6ff; /* slightly darker on hover */
+}
+
+.jump {
+  text-decoration: none;   /* removes underline */
+  font-weight: bold;       /* makes text bold */
+  font-style: italic;
+}
+
+.jump:hover {
+  text-decoration: underline; 
+  opacity: 0.8;
+}
+
+.TOC {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-left: 16px;
 }
